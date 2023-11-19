@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <hrad>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <script src="https://kit.fontawesome.com/5f44af323f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </hrad>
+    <body>
+        <section class="contact">
+            <div class="contect">
+                <h2>Contact Us</h2>
+                <p>Thank you for reaching out to us. We value your feedback, inquiries, and suggestions. Please use the following contact information to get in touch with us:</p>
+            </div>
+            <div class="container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Plot -16, Aftabuddin Ahmed Road, Block-b, <br>Bashundra R/A, <br>Dhaka-1229.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>01928093849</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>info@iub.edu.bd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform">
+                    <form action="connect.php" method="post">
+                        <h2>Send Message</h2>
+                        <div class="inputbox">
+                            <input type="text" name="fullname" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea required="required" name="message"></textarea>
+                            <span>Type Your Message...</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
